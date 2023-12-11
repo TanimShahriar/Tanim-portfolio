@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet-async";
 import Banner from "../Banner/Banner";
 import Skills from "../Skills/Skills";
 import Experience from "../Experience/Experience";
+import Education from "../Education/Education";
 
 
 
@@ -13,8 +14,9 @@ const Home = () => {
         <title>Tanim's Portfolio | Home</title>
       </Helmet>
       <Banner></Banner>
-      <Skills></Skills>
       <Experience></Experience>
+      <Education></Education>
+      <Skills></Skills>
     </div>
   );
 };
