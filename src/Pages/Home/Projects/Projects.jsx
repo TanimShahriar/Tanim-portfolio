@@ -23,10 +23,10 @@ const Projects = () => {
         {/* project-2 */}
 
         <div className="hover:bg-[#351e47] space-y-2 rounded-lg  p-2 border border-slate-500  h-auto  hover:shadow-lg  hover:scale-100 duration-500 ease-in-out">
-          <h2>Project Name: Event Management </h2>
+          <h2>Project Name: Online Study Group </h2>
           <div className="flex flex-col space-y-2">
-            <a className="underline" href="https://social-event-management-ed331.web.app/" target="_blank" rel="noopener noreferrer">Project Link</a>
-            <a className="underline" href="https://github.com/TanimShahriar/Event-management" target="_blank" rel="noopener noreferrer">Github Link</a>
+            <a className="underline" href="https://cosmic-snickerdoodle-aa6813.netlify.app/" target="_blank" rel="noopener noreferrer">Project Link</a>
+            <a className="underline" href="https://github.com/TanimShahriar/online-study" target="_blank" rel="noopener noreferrer">Github Link</a>
           </div>
 
           <button className="bg-[#723d9c] hover:bg-[#37075D] block  px-3 py-1 rounded-md">Project Details</button>
@@ -36,10 +36,10 @@ const Projects = () => {
 
         {/* project-2 */}
         <div className="hover:bg-[#351e47] space-y-2 rounded-lg  p-2 border border-slate-500  h-auto  hover:shadow-lg  hover:scale-100 duration-500 ease-in-out">
-          <h2>Project Name: Event Management </h2>
+          <h2>Project Name: Apartment Management</h2>
           <div className="flex flex-col space-y-2">
-            <a className="underline" href="https://social-event-management-ed331.web.app/" target="_blank" rel="noopener noreferrer">Project Link</a>
-            <a className="underline" href="https://github.com/TanimShahriar/Event-management" target="_blank" rel="noopener noreferrer">Github Link</a>
+            <a className="underline" href="https://the-hill-apartment.web.app/" target="_blank" rel="noopener noreferrer">Project Link</a>
+            <a className="underline" href="https://github.com/TanimShahriar/apartment-management" target="_blank" rel="noopener noreferrer">Github Link</a>
           </div>
 
           <button className="bg-[#723d9c] hover:bg-[#37075D] block  px-3 py-1 rounded-md">Project Details</button>

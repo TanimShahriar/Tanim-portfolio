@@ -16,8 +16,8 @@ const EventManagement = () => {
         <h2 className='text-center pt-14 text-3xl font-semibold underline'>Project overview</h2>
         <p className='mt-2'>The project is about different types of social event management like birthday event, anniverssary program, marriage ceremony, engagement party, retirement party. The primary purpose of this website is to streamline the event planning process, providing users with tools and features to effectively manage various aspects of their events. Key features of this project are:</p>
         <div>
-          <div className='flex items-center justify-between gap-28'>
-            <div className='pt-10 w-1/2'>
+          <div className='grid lg:grid-cols-2 gap-10 '>
+            <div className='pt-10 '>
               <Swiper
                 spaceBetween={30}
                 centeredSlides={true}
@@ -41,7 +41,7 @@ const EventManagement = () => {
 
               </Swiper>
             </div>
-            <div className="space-y-5 w-1/2 mt-20">
+            <div className="space-y-5  mt-20">
               <div className="text-5xl opacity-70 font-medium">
                 <h2 className="">Event </h2>
                 <h2>Management</h2>
@@ -50,8 +50,8 @@ const EventManagement = () => {
 
             </div>
           </div>
-          <div className='flex justify-center gap-10 my-5'>
-            <div className='w-1/2'>
+          <div className='grid lg:grid-cols-2 gap-10 my-5'>
+            <div className=''>
               <h2 className='text-3xl underline mt-3'>Project Features:</h2>
               <ul className='list-disc space-y-1 mt-3'>
                 <li>User Registration and Profiles.</li>
@@ -62,7 +62,7 @@ const EventManagement = () => {
                 <li>In the gallery route user can see works and photos of different event.</li>
               </ul>
             </div>
-            <div className='w-1/2'>
+            <div className=''>
               <h2 className='text-3xl underline mt-3'>Used Technologies:</h2>
               <ul className='list-disc space-y-1 mt-3'>
                 <li>Html</li>
