@@ -16,7 +16,7 @@ const Projects = () => {
             <a className="underline" href="https://github.com/TanimShahriar/Event-management" target="_blank" rel="noopener noreferrer">Github Link</a>
           </div>
 
-          <button className="bg-[#723d9c] hover:bg-[#37075D] block  px-3 py-1 rounded-md">Project Details</button>
+          <Link to="/eventManagement"><button className="bg-[#723d9c] hover:bg-[#37075D] block mt-3   px-3 py-1 rounded-md">Project Details</button></Link>
 
         </div>
 
