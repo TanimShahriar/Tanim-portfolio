@@ -4,6 +4,8 @@ import Skills from "../Skills/Skills";
 import Experience from "../Experience/Experience";
 import Education from "../Education/Education";
 import Projects from "../Projects/Projects";
+import Contact from "../Contact/Contact";
+import Service from "../Service/Service";
 
 
 
@@ -17,8 +19,10 @@ const Home = () => {
       <Banner></Banner>
       <Experience></Experience>
       <Education></Education>
+      <Service></Service>
       <Skills></Skills>
       <Projects></Projects>
+      <Contact></Contact>
     </div>
   );
 };
