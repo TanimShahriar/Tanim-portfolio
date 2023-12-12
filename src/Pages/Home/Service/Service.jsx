@@ -3,7 +3,7 @@ const Service = () => {
   return (
     <div className="bg-[#37075D] text-white px-2">
       <h4 className="text-slate-100 text-center font-bold py-3 uppercase">My service</h4>
-      <h2 className="text-5xl text-center font-bold w-[700px] mx-auto leading-tight mb-10 text-slate-300">Crafting stories through development and innovation</h2>
+      <h2 className="text-2xl lg:text-5xl text-center font-bold w-full lg:w-[700px] mx-auto leading-tight mb-10 text-slate-300">Crafting stories through development and innovation</h2>
       {/* main div */}
       <div className="grid lg:grid-cols-3 gap-4 pb-5">
         {/* div-1 */}
